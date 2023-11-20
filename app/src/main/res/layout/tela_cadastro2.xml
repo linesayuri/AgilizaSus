@@ -1,0 +1,290 @@
+   <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-92dp">
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="94dp"
+            android:text="@string/cadastro_comorbidade7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/checkBox8"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/cadastro_comorbidade1"
+            app:layout_constraintBottom_toTopOf="@+id/checkBox6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+        <CheckBox
+            android:id="@+id/checkBox14"
+            android:layout_width="195dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="9dp"
+            android:text="@string/lgpd_aceite2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox13" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="113dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="63dp"
+            android:text="@string/cadastro_comorbidade8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/checkBox9"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="41dp"
+            android:text="@string/cadastro_comorbidade11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/checkBox12"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox10" />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="41dp"
+            android:text="@string/cadastro_comorbidade9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/checkBox10"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox8" />
+
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="147dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="29dp"
+            android:text="@string/cadastro_comorbidade10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/checkBox11"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox9" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="131dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/cadastro_comorbidade3"
+            app:layout_constraintStart_toStartOf="@+id/checkBox"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/cadastro_comorbidade5"
+            app:layout_constraintStart_toStartOf="@+id/checkBox2"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="136dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/cadastro_comorbidade6"
+            app:layout_constraintStart_toStartOf="@+id/checkBox3"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+        <CheckBox
+            android:id="@+id/checkBox12"
+            android:layout_width="131dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="45dp"
+            android:text="@string/cadastro_comorbidade12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox11" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="118dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/cadastro_comorbidade4"
+            app:layout_constraintStart_toStartOf="@+id/checkBox6"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/cadastro_comorbidade2"
+            app:layout_constraintStart_toStartOf="@+id/checkBox5"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="183dp"
+            android:text="@string/text_cadastro6"
+            android:textColor="@color/primary_color"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="13dp"
+            android:text="@string/sim"
+            app:layout_constraintEnd_toStartOf="@+id/radioButton2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="170dp"
+            android:text="@string/Não"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/radioButton"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="175dp"
+            android:text="@string/cadastro"
+            android:textColor="@color/primary_color"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/icon_voltar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="147dp"
+            android:text="@string/text_cadastro1"
+            android:textColor="@color/primary_color"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="135dp"
+            android:text="@string/text_cadastro4"
+            android:textColor="@color/primary_color"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="320dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="50dp"
+            android:text="@string/text_cadastro5"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="312dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="58dp"
+            android:text="@string/lgpd"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioButton" />
+
+        <CheckBox
+            android:id="@+id/checkBox13"
+            android:layout_width="198dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="9dp"
+            android:text="@string/lgpd_aceite1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+        <Button
+            android:id="@+id/btncadastroproximo"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="266dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginBottom="30dp"
+            android:background="@color/primary_color"
+            android:text="@string/button_cadastrar"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-92dp">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/icon_menu"
+            tools:layout_editor_absoluteX="370dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/home"
+            android:textColor="@color/primary_color"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="179dp"
+            tools:layout_editor_absoluteY="51dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user"
+            android:textAlignment="viewStart"
+            android:textColor="@color/primary_color"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="141dp" />
+
+        <Button
+            android:id="@+id/btnunidadesproximas"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/primary_color"
+            android:drawableTop="@drawable/icon_unidadesproximas"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/white"
+            android:paddingTop="15dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="533dp"
+            tools:text="@string/unidades_proximas" />
+
+        <Button
+            android:id="@+id/btnfilavirtual"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/primary_color"
+            android:drawableTop="@drawable/icon_filavirtual"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/white"
+            android:paddingTop="15dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="275dp"
+            tools:text="@string/fila_virtual" />
+
+        <Button
+            android:id="@+id/btntelemedicina"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/primary_color"
+            android:drawableTop="@drawable/icon_telemedicina"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/white"
+            android:paddingTop="15dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/button18"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toEndOf="@+id/btnfilavirtual"
+            tools:layout_editor_absoluteY="275dp"
+            tools:text="@string/telemedicina" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/primary_color"
+            android:drawableTop="@drawable/icon_agendamentos"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/white"
+            android:paddingTop="15dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="278dp"
+            tools:layout_editor_absoluteY="275dp"
+            tools:text="@string/agendamento_consultas" />
+
+        <Button
+            android:id="@+id/btnagendamentos"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/primary_color"
+            android:drawableTop="@drawable/icon_agendamentos"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/white"
+            android:paddingTop="15dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="278dp"
+            tools:layout_editor_absoluteY="275dp"
+            tools:text="@string/agendamento_consultas" />
+
+        <Button
+            android:id="@+id/btnhistoricodeconsultas"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/primary_color"
+            android:drawableTop="@drawable/icon_historico"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/white"
+            android:paddingTop="15dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="278dp"
+            tools:layout_editor_absoluteY="403dp"
+            tools:text="@string/historico_consultas" />
+
+        <Button
+            android:id="@+id/btnguiasepedidos"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/primary_color"
+            android:drawableTop="@drawable/icon_guias"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/white"
+            android:paddingTop="15dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/btnhistoricodeconsultas"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toEndOf="@+id/btnexames"
+            tools:layout_editor_absoluteY="403dp"
+            tools:text="@string/guias_pedidos" />
+
+        <Button
+            android:id="@+id/btnexames"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/primary_color"
+            android:drawableTop="@drawable/icon_exames"
+            android:drawablePadding="4dp"
+            android:drawableTint="@color/white"
+            android:paddingTop="15dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="403dp"
+            tools:text="@string/exames" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="248px"
+            android:layout_height="248px"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="123dp"
+            tools:src="@drawable/user_avatar" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            android:textColor="@color/primary_color"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="141dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

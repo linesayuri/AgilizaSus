@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Agiliza Sus</string>
+    <string name="button_login">Entre</string>
+    <string name="button_login_gov">Entre com</string>
+    <string name="button_login_cadastre">ou cadastre-se</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Senha</string>
+    <string name="hello">Olá,</string>
+    <string name="user">Rogério</string>
+    <string name="home">Home</string>
+    <string name="fila_virtual">Fila Virtual</string>
+    <string name="telemedicina">Telemedicina</string>
+    <string name="agendamento_consultas">Agendamento de Consultas</string>
+    <string name="exames">Exames</string>
+    <string name="guias_pedidos">Guias e Pedidos</string>
+    <string name="historico_consultas">Histórico de Consultas</string>
+    <string name="unidades_proximas">Unidades Próximas</string>
+    <string name="text_filavirtual">Escolha a unidade de pronto socorro
+mais próxima de você e agilize seu
+processo de atendimento</string>
+    <string name="text_telemedicina1">Estas são nossas especialidades
+disponíveis no momento, entre na fila e logo você será atendido</string>
+    <string name="posto1">Posto Jardim Boa Vista</string>
+    <string name="posto_localizacao">São Paulo - SP</string>
+    <string name="especialidade_clinica">Clínica Geral</string>
+    <string name="especialidade_ortopedia">Ortopedia</string>
+    <string name="especialidade_endocrinologia">Endocrinologia</string>
+    <string name="especialidade_ginecologia">Ginecologia</string>
+    <string name="especialidade_urologia">Urologia</string>
+    <string name="especialidade_cardiologia">Cardiologia</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="cadastro_info">Informações Pessoais</string>
+    <string name="cadastro_endereço">Endereço</string>
+    <string name="text_filavirtual_main">Você está na fila virtual,
+sua posição é:</string>
+    <string name="text_filavirtual_posicao">22</string>
+    <string name="text_filavirtual_escolha">Escolha a unidade de pronto socorro
+mais próxima de você e agilize seu
+processo de atendimento</string>
+    <string name="text_filavirtual_aviso">Quando chegar sua vez, você tem até 10 minutos para comparecer na recepção da unidade de saúde selecionada.</string>
+    <string name="posto1_endereço_rua">Rua Jd. Boa Esperança</string>
+    <string name="posto1_endereço_numero">Número 70</string>
+    <string name="posto1_endereço_bairro">Jardim Boa Vista</string>
+    <string name="text_unidadesproximas">Verifique aqui as unidades de saúde mais
+próximas de você</string>
+    <string name="text_cadastro1">Preencha suas informações </string>
+    <string name="text_cadastro2">Informações pessoais</string>
+    <string name="text_cadastro3">Endereço</string>
+    <string name="text_cadastro4">Comorbidades e Condições de saúde</string>
+    <string name="text_cadastro5">Indique nessa sessão se você possui alguma das comorbidades ou condições a seguir:</string>
+    <string name="text_cadastro6">Você pratica atividade física?</string>
+    <string name="cadastro_hint1">Nome</string>
+    <string name="cadastro_hint2">Sobrenome</string>
+    <string name="cadastro_hint3">CPF</string>
+    <string name="cadastro_hint4">Nacionalidade</string>
+    <string name="cadastro_hint5">E-mail</string>
+    <string name="cadastro_hint6">País</string>
+    <string name="cadastro_hint7">Estado</string>
+    <string name="cadastro_hint8">CEP</string>
+    <string name="cadastro_hint9">Bairro</string>
+    <string name="cadastro_hint10">Cidade</string>
+    <string name="cadastro_hint11">Rua</string>
+    <string name="cadastro_hint12">Número</string>
+    <string name="cadastro_hint13">Peso</string>
+    <string name="cadastro_hint14">Altura</string>
+    <string name="cadastro_hint15">Data de Nasc(DD-MM-AAAA)</string>
+    <string name="cadastro_hint16">IMC</string>
+    <string name="cadastro_comorbidade1">Diabetes</string>
+    <string name="cadastro_comorbidade2">Asma</string>
+    <string name="cadastro_comorbidade3">Insuficiência cardíaca</string>
+    <string name="cadastro_comorbidade4">Hipertensão arterial</string>
+    <string name="cadastro_comorbidade5">Obesidade mórbida</string>
+    <string name="cadastro_comorbidade6">Cardiopatia congênita</string>
+    <string name="cadastro_comorbidade7">Arritmia</string>
+    <string name="cadastro_comorbidade8">Distrofia muscular</string>
+    <string name="cadastro_comorbidade9">Hipertensão pulmonar</string>
+    <string name="cadastro_comorbidade10">Doença hepática crônica</string>
+    <string name="cadastro_comorbidade11">Doença renal crônica</string>
+    <string name="cadastro_comorbidade12">Doenças neurológicas</string>
+    <string name="lgpd">Para prosseguir você deve aceitar os termos e condições  e o compartilhamento de dados.</string>
+    <string name="lgpd_aceite1">Aceito os termos e condições</string>
+    <string name="lgpd_aceite2">Aceito compartilhar minhas informações</string>
+    <string name="sim">Sim</string>
+    <string name="Não">Não</string>
+    <string name="button_cadastro_proximo">Próximo></string>
+    <string name="button_cadastrar">Cadastrar</string>
+    <string name="title_activity_main2">MainActivity2</string>
+
+
+</resources>
