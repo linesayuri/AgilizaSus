@@ -84,7 +84,30 @@ próximas de você</string>
     <string name="Não">Não</string>
     <string name="button_cadastro_proximo">Próximo></string>
     <string name="button_cadastrar">Cadastrar</string>
+    <string name="agendamentosconsultas">Agendamento de Consultas</string>
+    <string name="text_agendamento1">Selecione um filtro para iniciar sua busca:</string>
+    <string name="consultorios">Consultórios</string>
+    <string name="especialistas">Especialistas</string>
+    <string name="resultadodabusca">Resultados da busca:</string>
+    <string name="end_consultorio">{{ Endereço do consultório }}</string>
+    <string name="especialidade">{{ Especialidade }}</string>
+    <string name="exames">Exames</string>
+    <string name="text_exames">Aqui você encontra os resultados dos seus
+exames realizados.</string>
+    <string name="nome_exame">{{ Nome do exame }}</string>
+    <string name="data_exame">{{ Data da realização }}</string>
+    <string name="guiasepedidos">Guia e Pedidos</string>
+    <string name="text_guias">Confira abaixo os exames que seu médico/
+especilista solicitou para a próxima consulta:</string>
+    <string name="campo_nomeexame">{{ Nome do exame }}</string>
+    <string name="campo_datavalidade">{{ Data da validade }}</string>
+    <string name="historicoconsultas">Histórico de Consultas</string>
+    <string name="text_historico">Pesquise seu histórico de consulta médicas</string>
+    <string name="campo_nomemedicoespecialista">{{ Nome do médico ou especialista }}</string>
+    <string name="campo_especialidademedico">{{ Especialidade do médico }}</string>
+    <string name="campo_dataconsulta">{{ Data da consulta }}</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="acessarexames">ACESSAR EXAMES</string>
+    <string name="ligar">LIGAR</string>
     <string name="title_activity_main2">MainActivity2</string>
-
-
 </resources>
