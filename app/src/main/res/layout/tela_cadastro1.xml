@@ -31,8 +31,10 @@
             android:id="@+id/imageView6"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            tools:layout_editor_absoluteX="354dp"
-            tools:layout_editor_absoluteY="62dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
             tools:srcCompat="@drawable/vlibras" />
 
         <EditText
@@ -40,210 +42,265 @@
             android:layout_width="320dp"
             android:layout_height="31dp"
             android:layout_gravity="center"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
             android:ems="10"
             android:hint="@string/cadastro_hint10"
             android:inputType="text"
             android:textColor="@color/dark_gray"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="41dp"
-            tools:layout_editor_absoluteY="463dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText4" />
 
         <EditText
             android:id="@+id/editTextText4"
             android:layout_width="320dp"
             android:layout_height="31dp"
             android:layout_gravity="center"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
             android:ems="10"
             android:hint="@string/cadastro_hint9"
             android:inputType="text"
             android:textColor="@color/dark_gray"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="41dp"
-            tools:layout_editor_absoluteY="425dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
 
         <EditText
             android:id="@+id/editTextText3"
             android:layout_width="320dp"
             android:layout_height="31dp"
             android:layout_gravity="center"
+            android:layout_marginStart="41dp"
+            android:layout_marginEnd="50dp"
             android:ems="10"
             android:inputType="number"
             android:text="@string/cadastro_hint8"
             android:textColor="@color/dark_gray"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="41dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="387dp" />
 
         <TextView
             android:id="@+id/textView24"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="41dp"
+            android:layout_marginEnd="310dp"
             android:text="@string/cadastro_endereço"
             android:textColor="@color/primary_color"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="41dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="282dp" />
 
         <EditText
             android:id="@+id/editTextText2"
             android:layout_width="165dp"
             android:layout_height="34dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="42dp"
             android:ems="10"
             android:hint="@string/cadastro_hint2"
             android:inputType="text"
             android:textColor="@color/dark_gray"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="204dp"
-            tools:layout_editor_absoluteY="109dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginStart="113dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="78dp"
             android:text="@string/cadastro"
             android:textColor="@color/primary_color"
             android:textSize="20sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="154dp"
-            tools:layout_editor_absoluteY="14dp" />
+            app:layout_constraintEnd_toStartOf="@+id/imageView5"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="25dp"
             android:layout_height="25dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
             android:src="@drawable/icon_voltar"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="16dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="91dp"
             android:text="@string/text_cadastro1"
             android:textColor="@color/primary_color"
             android:textSize="18sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="41dp"
-            tools:layout_editor_absoluteY="54dp" />
+            app:layout_constraintEnd_toStartOf="@+id/imageView6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
         <TextView
             android:id="@+id/textView23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="172dp"
             android:text="@string/cadastro_info"
             android:textColor="@color/primary_color"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="41dp"
-            tools:layout_editor_absoluteY="83dp" />
+            app:layout_constraintEnd_toStartOf="@+id/imageView6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
         <EditText
             android:id="@+id/editTextNumberDecimal3"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
             android:ems="10"
             android:hint="@string/cadastro_hint16"
             android:inputType="numberDecimal"
             android:textColor="@color/dark_gray"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="211dp"
-            tools:layout_editor_absoluteY="619dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal" />
 
         <TextView
             android:id="@+id/textView25"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="228dp"
             android:text="@string/cadastro_info"
             android:textColor="@color/primary_color"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="41dp"
-            tools:layout_editor_absoluteY="549dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText6" />
 
         <EditText
             android:id="@+id/editTextNumberDecimal"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="50dp"
             android:ems="10"
             android:hint="@string/cadastro_hint14"
             android:inputType="numberDecimal"
             android:textColor="@color/dark_gray"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="211dp"
-            tools:layout_editor_absoluteY="577dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView25" />
 
         <EditText
             android:id="@+id/editTextNumberDecimal2"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="5dp"
             android:ems="10"
             android:hint="@string/cadastro_hint13"
             android:inputType="numberDecimal"
             android:textColor="@color/dark_gray"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="41dp"
-            tools:layout_editor_absoluteY="577dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
         <EditText
             android:id="@+id/editTextDate"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="10dp"
             android:ems="10"
             android:hint="@string/cadastro_hint15"
             android:inputType="date"
             android:textColor="@color/dark_gray"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="41dp"
-            tools:layout_editor_absoluteY="619dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal2" />
 
         <EditText
             android:id="@+id/editTextText"
             android:layout_width="147dp"
             android:layout_height="34dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="10dp"
             android:ems="10"
             android:hint="@string/cadastro_hint1"
             android:inputType="text"
             android:textColor="@color/dark_gray"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="41dp"
-            tools:layout_editor_absoluteY="109dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
         <EditText
             android:id="@+id/editTextText"
             android:layout_width="326dp"
             android:layout_height="31dp"
             android:layout_gravity="center"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="44dp"
             android:ems="10"
             android:hint="@string/cadastro_hint3"
             android:inputType="@string/cadastro_hint3"
             android:textColor="@color/dark_gray"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="41dp"
-            tools:layout_editor_absoluteY="153dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
 
         <EditText
             android:id="@+id/editTextText"
             android:layout_width="320dp"
             android:layout_height="31dp"
             android:layout_gravity="center"
+            android:layout_marginStart="42dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="10dp"
             android:ems="10"
             android:hint="@string/cadastro_hint4"
             android:inputType="text"
             android:textColor="@color/dark_gray"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="41dp"
-            tools:layout_editor_absoluteY="194dp" />
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <EditText
             android:id="@+id/editTextText"
             android:layout_width="320dp"
             android:layout_height="31dp"
             android:layout_gravity="center"
+            android:layout_marginStart="41dp"
+            android:layout_marginEnd="50dp"
             android:ems="10"
             android:inputType="text"
             android:text="@string/cadastro_hint6"
             android:textColor="@color/dark_gray"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="41dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="308dp" />
 
         <EditText
@@ -251,62 +308,75 @@
             android:layout_width="320dp"
             android:layout_height="31dp"
             android:layout_gravity="center"
+            android:layout_marginStart="41dp"
+            android:layout_marginEnd="50dp"
             android:ems="10"
             android:inputType="text"
             android:text="@string/cadastro_hint7"
             android:textColor="@color/dark_gray"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="41dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="348dp" />
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
             android:layout_width="320dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="41dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="10dp"
             android:ems="10"
             android:hint="@string/cadastro_hint5"
             android:inputType="textEmailAddress"
             android:textColor="@color/dark_gray"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="41dp"
-            tools:layout_editor_absoluteY="234dp" />
+            app:layout_constraintBottom_toTopOf="@+id/textView24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <EditText
             android:id="@+id/editTextText6"
             android:layout_width="237dp"
             android:layout_height="32dp"
             android:layout_gravity="center"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="10dp"
             android:ems="10"
             android:hint="@string/cadastro_hint11"
             android:inputType="text"
             android:textColor="@color/dark_gray"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="41dp"
-            tools:layout_editor_absoluteY="506dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText5" />
 
         <EditText
             android:id="@+id/editTextText"
             android:layout_width="71dp"
             android:layout_height="31dp"
             android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
             android:ems="10"
             android:hint="@string/cadastro_hint12"
             android:inputType="text"
             android:textColor="@color/dark_gray"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="290dp"
-            tools:layout_editor_absoluteY="506dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText5" />
 
         <Button
             android:id="@+id/btncadastroproximo"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="28dp"
             android:background="@color/primary_color"
             android:text="@string/button_cadastro_proximo"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            tools:layout_editor_absoluteX="265dp"
-            tools:layout_editor_absoluteY="664dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

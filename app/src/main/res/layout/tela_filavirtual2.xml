@@ -23,6 +23,7 @@
             android:layout_gravity="center"
             android:layout_marginStart="164dp"
             android:layout_marginTop="10dp"
+            android:contentDescription="@string/content_desc_logo_agilizasus"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/logo_agilizasus_azul" />
@@ -47,8 +48,11 @@
             android:id="@+id/imageView6"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            tools:layout_editor_absoluteX="354dp"
-            tools:layout_editor_absoluteY="62dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/content_desc_vlibras"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
             tools:srcCompat="@drawable/vlibras" />
 
         <TextView
@@ -72,6 +76,7 @@
             android:layout_height="25dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
+            android:contentDescription="@string/content_desc_btn_voltar"
             android:src="@drawable/icon_voltar"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -82,6 +87,7 @@
             android:layout_height="25dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
+            android:contentDescription="@string/content_desc_menu"
             android:src="@drawable/icon_menu"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

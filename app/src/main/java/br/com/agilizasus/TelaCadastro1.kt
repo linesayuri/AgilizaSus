@@ -10,7 +10,7 @@ class TelaCadastro1 : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.tela_cadastro1)
 
-        val btncadastroproximo: Button = findViewById<Button>(R.id.btncadastroproximo)
+        val btncadastroproximo: Button = findViewById(R.id.btncadastroproximo)
 
         btncadastroproximo.setOnClickListener{
             val i = Intent(this,TelaCadastro2::class.java)

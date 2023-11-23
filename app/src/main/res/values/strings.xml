@@ -109,5 +109,14 @@ especilista solicitou para a próxima consulta:</string>
     <string name="pesquisar">Pesquisar</string>
     <string name="acessarexames">ACESSAR EXAMES</string>
     <string name="ligar">LIGAR</string>
+    <string name="telemedicina_nomedomedico">Doutora Mariana Albuquerque</string>
+    <string name="telemedicina_especialidadedomedico">Clinica Geral</string>
     <string name="title_activity_main2">MainActivity2</string>
+    <string name="content_desc_vlibras">Botão VLibras</string>
+    <string name="content_desc_btn_voltar">Botão Voltar</string>
+    <string name="content_desc_menu">Menu</string>
+    <string name="content_desc_logo_agilizasus">Logo Agiliza Sus</string>
+    <string name="content_desc_avatar">Avatar do Usuário</string>
+    <string name="content_desc_icon_local">Ícone de Localização</string>
+    <string name="content_desc_videoteleconsulta">Chamada de Vídeo Teleconsulta</string>
 </resources>

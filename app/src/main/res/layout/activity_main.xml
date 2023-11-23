@@ -23,6 +23,9 @@
             android:layout_gravity="center"
             android:layout_marginStart="164dp"
             android:layout_marginTop="10dp"
+            android:layout_marginEnd="126dp"
+            android:contentDescription="@string/content_desc_logo_agilizasus"
+            app:layout_constraintEnd_toStartOf="@+id/imageView4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/logo_agilizasus_azul" />
@@ -31,40 +34,50 @@
             android:id="@+id/imageView4"
             android:layout_width="25dp"
             android:layout_height="25dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/content_desc_menu"
             android:src="@drawable/icon_menu"
-            tools:layout_editor_absoluteX="370dp"
-            tools:layout_editor_absoluteY="16dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginStart="178dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="178dp"
             android:text="@string/home"
             android:textColor="@color/primary_color"
             android:textSize="20sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="179dp"
-            tools:layout_editor_absoluteY="51dp" />
-
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="63dp"
+            android:layout_marginEnd="119dp"
             android:text="@string/user"
             android:textAlignment="viewStart"
             android:textColor="@color/primary_color"
             android:textSize="24sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="207dp"
-            tools:layout_editor_absoluteY="141dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
         <Button
             android:id="@+id/btnunidadesproximas"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginBottom="98dp"
             android:background="@color/primary_color"
             android:drawableTop="@drawable/icon_unidadesproximas"
             android:drawablePadding="4dp"
@@ -74,16 +87,19 @@
             android:textColor="@color/white"
             android:textSize="12sp"
             android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="533dp"
+            app:layout_constraintTop_toBottomOf="@+id/btnguiasepedidos"
             tools:text="@string/unidades_proximas" />
 
         <Button
             android:id="@+id/btnfilavirtual"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="58dp"
             android:background="@color/primary_color"
             android:drawableTop="@drawable/icon_filavirtual"
             android:drawablePadding="4dp"
@@ -93,14 +109,15 @@
             android:textColor="@color/white"
             android:textSize="12sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="35dp"
-            tools:layout_editor_absoluteY="275dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
             tools:text="@string/fila_virtual" />
 
         <Button
             android:id="@+id/btntelemedicina"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_marginTop="102dp"
             android:background="@color/primary_color"
             android:drawableTop="@drawable/icon_telemedicina"
             android:drawablePadding="4dp"
@@ -113,13 +130,15 @@
             app:layout_constraintEnd_toStartOf="@+id/button18"
             app:layout_constraintHorizontal_bias="0.488"
             app:layout_constraintStart_toEndOf="@+id/btnfilavirtual"
-            tools:layout_editor_absoluteY="275dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
             tools:text="@string/telemedicina" />
 
         <Button
             android:id="@+id/button18"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_marginTop="102dp"
+            android:layout_marginEnd="33dp"
             android:background="@color/primary_color"
             android:drawableTop="@drawable/icon_agendamentos"
             android:drawablePadding="4dp"
@@ -129,14 +148,16 @@
             android:textColor="@color/white"
             android:textSize="12sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="278dp"
-            tools:layout_editor_absoluteY="275dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
             tools:text="@string/agendamento_consultas" />
 
         <Button
             android:id="@+id/btnagendamentos"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_marginTop="102dp"
+            android:layout_marginEnd="33dp"
             android:background="@color/primary_color"
             android:drawableTop="@drawable/icon_agendamentos"
             android:drawablePadding="4dp"
@@ -146,14 +167,16 @@
             android:textColor="@color/white"
             android:textSize="12sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="278dp"
-            tools:layout_editor_absoluteY="275dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
             tools:text="@string/agendamento_consultas" />
 
         <Button
             android:id="@+id/btnhistoricodeconsultas"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="33dp"
             android:background="@color/primary_color"
             android:drawableTop="@drawable/icon_historico"
             android:drawablePadding="4dp"
@@ -163,14 +186,15 @@
             android:textColor="@color/white"
             android:textSize="12sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="278dp"
-            tools:layout_editor_absoluteY="403dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button18"
             tools:text="@string/historico_consultas" />
 
         <Button
             android:id="@+id/btnguiasepedidos"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_marginTop="28dp"
             android:background="@color/primary_color"
             android:drawableTop="@drawable/icon_guias"
             android:drawablePadding="4dp"
@@ -183,13 +207,15 @@
             app:layout_constraintEnd_toStartOf="@+id/btnhistoricodeconsultas"
             app:layout_constraintHorizontal_bias="0.488"
             app:layout_constraintStart_toEndOf="@+id/btnexames"
-            tools:layout_editor_absoluteY="403dp"
+            app:layout_constraintTop_toBottomOf="@+id/btntelemedicina"
             tools:text="@string/guias_pedidos" />
 
         <Button
             android:id="@+id/btnexames"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="28dp"
             android:background="@color/primary_color"
             android:drawableTop="@drawable/icon_exames"
             android:drawablePadding="4dp"
@@ -199,35 +225,45 @@
             android:textColor="@color/white"
             android:textSize="12sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="35dp"
-            tools:layout_editor_absoluteY="403dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnfilavirtual"
             tools:text="@string/exames" />
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="248px"
-            android:layout_height="248px"
-            tools:layout_editor_absoluteX="41dp"
-            tools:layout_editor_absoluteY="123dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="123dp"
+            android:contentDescription="@string/content_desc_avatar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:src="@drawable/user_avatar" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginEnd="7dp"
             android:text="@string/hello"
             android:textColor="@color/primary_color"
             android:textSize="24sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="158dp"
-            tools:layout_editor_absoluteY="141dp" />
+            app:layout_constraintEnd_toStartOf="@+id/textView4"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            tools:layout_editor_absoluteX="355dp"
-            tools:layout_editor_absoluteY="83dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/content_desc_vlibras"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
             tools:srcCompat="@drawable/vlibras" />
 
 

@@ -13,12 +13,13 @@
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginTop="250dp"
+        android:contentDescription="@string/content_desc_logo_agilizasus"
         tools:srcCompat="@drawable/logo_agilizasus_branco" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="150dp"
-        android:layout_height="112px"
+        android:layout_height="40dp"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
         android:background="#00FFFFFF"
@@ -38,6 +39,7 @@
         android:drawableEnd="@drawable/logo_gov"
         android:drawablePadding="0dp"
         android:paddingEnd="15dp"
+        android:paddingStart="15dp"
         android:text="@string/button_login_gov"
         android:textAlignment="center"
         android:textAllCaps="false"
