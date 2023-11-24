@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Agiliza Sus</string>
     <string name="button_login">Entre</string>
     <string name="button_login_gov">Entre com</string>
@@ -18,7 +18,7 @@
     <string name="text_filavirtual">Escolha a unidade de pronto socorro
 mais próxima de você e agilize seu
 processo de atendimento</string>
-    <string name="text_telemedicina1">Estas são nossas especialidades
+    <string name="text_telemedicina1" tools:ignore="Typos">Estas são nossas especialidades
 disponíveis no momento, entre na fila e logo você será atendido</string>
     <string name="posto1">Posto Jardim Boa Vista</string>
     <string name="posto_localizacao">São Paulo - SP</string>
@@ -91,7 +91,6 @@ próximas de você</string>
     <string name="resultadodabusca">Resultados da busca:</string>
     <string name="end_consultorio">{{ Endereço do consultório }}</string>
     <string name="especialidade">{{ Especialidade }}</string>
-    <string name="exames">Exames</string>
     <string name="text_exames">Aqui você encontra os resultados dos seus
 exames realizados.</string>
     <string name="nome_exame">{{ Nome do exame }}</string>
