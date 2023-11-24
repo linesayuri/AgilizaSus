@@ -13,20 +13,78 @@
         android:theme="@style/Theme.AgilizaSus"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
+            android:name=".TelaAgendamentos"
             android:exported="false"
-            android:label="@string/title_activity_main2"
+            android:label="TelaAgendamentos"
+            android:theme="@style/Theme.AgilizaSus" />
+        <activity
+            android:name=".TelaCadastro1"
+            android:exported="false"
+            android:label="TelaCadastro1"
+            android:theme="@style/Theme.AgilizaSus" />
+        <activity
+            android:name=".TelaCadastro2"
+            android:exported="false"
+            android:label="TelaCadastro2"
+            android:theme="@style/Theme.AgilizaSus" />
+
+        <activity
+            android:name=".TelaExames"
+            android:exported="false"
+            android:label="TelaExames"
+            android:theme="@style/Theme.AgilizaSus" />
+        <activity
+            android:name=".TelaFilaVirtual2"
+            android:exported="false"
+            android:label="TelaFilaVirtual2"
+            android:theme="@style/Theme.AgilizaSus" />
+        <activity
+            android:name=".TelaFilaVirtualPostos"
+            android:exported="false"
+            android:label="TelaFilaVirtualPostos"
+            android:theme="@style/Theme.AgilizaSus" />
+        <activity
+            android:name=".TelaGuiasePedidos"
+            android:exported="false"
+            android:label="TelaGuiasePedidos"
+            android:theme="@style/Theme.AgilizaSus" />
+        <activity
+            android:name=".TelaHistoricodeConsultas"
+            android:exported="false"
+            android:label="TelaHistoricodeConsultas"
+            android:theme="@style/Theme.AgilizaSus" />
+        <activity
+            android:name=".TelaLogin"
+            android:exported="false"
+            android:label="TelaLogin"
+            android:theme="@style/Theme.AgilizaSus" />
+        <activity
+            android:name=".TelaTelemedicina"
+            android:exported="false"
+            android:label="TelaTelemedicina"
+            android:theme="@style/Theme.AgilizaSus" />
+        <activity
+            android:name=".TelaTelemedicinaConsulta"
+            android:exported="false"
+            android:label="TelaTelemedicinaConsulta"
+            android:theme="@style/Theme.AgilizaSus" />
+        <activity
+            android:name=".TelaUnidadesProximas"
+            android:exported="false"
+            android:label="TelaUnidadesProximas"
             android:theme="@style/Theme.AgilizaSus" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.AgilizaSus">
+            android:theme="@style/Theme.AgilizaSus"
+            tools:ignore="RedundantLabel">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
